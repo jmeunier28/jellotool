@@ -1,0 +1,28 @@
+{
+  "name": "jello",
+  "version": "1.0.0",
+  "description": "A simple webapp to provide user functionality support for the Cello application developed by CIDAR",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "monitor": "nodemon app.js",
+    "deploy": "gcloud preview app deploy"
+  },
+  "keywords": [
+    "Jello"
+  ],
+  "author": "Pranay Singh, Jojo Meunier",
+  "license": "MIT",
+  "engines": {
+    "node": "~0.12.7"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "jsoneditor": "^5.1.5",
+    "jsonfile": "^2.2.3",
+    "multer": "^1.1.0",
+    "process": "^0.11.2",
+    "python-shell": "^0.3.0",
+    "socket.io": "1.3.6"
+  }
+}
